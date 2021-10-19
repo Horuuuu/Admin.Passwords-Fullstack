@@ -1,0 +1,64 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: rgb(199, 33, 199);
+}
+.AddingPassword {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: violet;
+  width: 70%;
+  background-image: url(https://www.techadvisor.com/cmsdata/features/3357177/create_strong_password_thumb800.jpg);
+  height: 400px;
+  border-radius: 25px;
+  margin-top: 20px;
+}
+.AddingPassword button,
+input {
+  width: 300px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+  margin: 10px;
+  font-size: 15px;
+  border: 1px solid darkmagenta;
+}
+button {
+  cursor: pointer;
+  color: azure;
+  background-color: violet;
+  font-weight: 700;
+}
+.passwords {
+  width: 70%;
+  background-image: url(https://www.connectsafely.org/wp-content/uploads/cyber-security-3374252_1280-1280x640.jpg);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+.password {
+  width: 300px;
+  height: 60px;
+  color: azure;
+  background-color: violet;
+  border-radius: 5px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  border: 1px solid darkmagenta;
+  cursor: pointer;
+}
