@@ -7,9 +7,9 @@ Proyecto en dos carpetas client para react app y server para node y express.
 debajo del formulario el nombre del sitio y clickeanodolo la contraseña desencriptada.</p>
 
 <p>El punto de entrada al servidor es el index.js.Axios para las peticiones a la api.</p>
-Úse el evento onchange con una funcion que capture todo lo que cambiarara en el formulario.
+Úse el evento onchange con una funcion que capture todo lo que cambiara en el formulario.
 
-<p>El metodo map para que por cada elemnto de la  lista de contraseñas retorne el valor y el titulo del sitio que corresponda a una contraseña
+<p>El metodo map para que por cada elemento de la  lista de contraseñas retorne el valor y el titulo del sitio que corresponda a una contraseña
 y se muestre en la parte inferior del sitio.</p>
 
 Base de datos con una tabla:
