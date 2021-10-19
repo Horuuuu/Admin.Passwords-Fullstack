@@ -13,7 +13,7 @@ debajo del formulario el nombre del sitio y clickeanodolo la contraseña desencr
 y se muestre en la parte inferior del sitio.</p>
 
 Base de datos con una tabla:
-|id|password|titulo1|iv|
+|id|password|titulo|iv|
 |--|--------|-------|--|
 
 Para ejecutar desde el directorio del cliente yarn start y tambien para ejecutar el servidor desde el directorio server npm start.Cambiar 
