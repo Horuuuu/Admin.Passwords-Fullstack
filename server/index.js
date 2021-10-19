@@ -14,7 +14,7 @@ app.use(express.json());
 const db=mysql.createConnection({//objeto con props que define  conexion a la DB
     user:'root',
     host:'localhost',
-    password:'chichita2',
+    password:'TU PASSWORD',
     database:'passwordmanager',
 })
 //ruta inicial
