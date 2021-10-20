@@ -9,12 +9,18 @@ debajo del formulario el nombre del sitio y clickeanodolo la contraseña desencr
 <p>El punto de entrada al servidor es el index.js.Axios para las peticiones a la api.</p>
 Úse el evento onchange con una funcion que capture todo lo que cambiara en el formulario.
 
-<p>El metodo map para que por cada elemento de la  lista de contraseñas retorne el valor y el titulo del sitio que corresponda a una contraseña
+<p>El metodo map para que por cada elemento de la  lista de contraseñas, retorne el valor y el titulo del sitio que corresponda a una contraseña
 y se muestre en la parte inferior del sitio.</p>
+
+<img src="client/public/img/password.jpg" >
 
 Base de datos con una tabla:
 |id|password|titulo|iv|
 |--|--------|-------|--|
 
-Para ejecutar desde el directorio del cliente yarn start y tambien para ejecutar el servidor desde el directorio server npm start.Cambiar 
+<p>Comentarios en el codigo:clipboard:</p>
+Para ejecutar desde el directorio del cliente ,yarn start y para ejecutar el servidor desde el directorio server, npm start.Cambiar 
 contraseña de la configuracion de mysql en index.js y copiar archivo sql de la carpeta db.
+
+
+<img src="client/public/img/stack_full.jpg" height="100" width="390">
