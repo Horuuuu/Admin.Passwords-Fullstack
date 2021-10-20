@@ -1,10 +1,10 @@
-# Admin.Passwords-Fullstack
+# Admin.Passwords-Fullstack:lock:
 Administrador de contraseñas con React ,Node ,Express y Mysql
 
 <p>React Js para Frontend,Node Js Y Express para (crear api)Backend Y Mysql para guardar datos</p>
 Proyecto en dos carpetas client para react app y server para node y express.
-<p>Caracteristicas:agrega a la base de datos y tambien elimina contraseñas ,encripta y desencripta la contraseña con <strong>Cripto</strong> de Node Js,muestra
-debajo del formulario el nombre del sitio y clickeanodolo la contraseña desencriptada.</p>
+<p>Caracteristicas:agrega a la base de datos y tambien elimina contraseñas ,encripta:key: y desencripta:unlock: la contraseña con <strong>Cripto</strong> de Node Js,muestra
+debajo del formulario el nombre del sitio y clickeanodolo la contraseña desencriptada:closed_lock_with_key:.</p>
 
 <p>El punto de entrada al servidor es el index.js.Axios para las peticiones a la api.</p>
 Úse el evento onchange con una funcion que capture todo lo que cambiara en el formulario.
